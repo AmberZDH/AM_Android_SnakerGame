@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:title="Speed">-->
+        <!--<menu>-->
+            <!--&lt;!&ndash;<item&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/Easy"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:icon="@android:drawable/ic_menu_agenda"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orderInCategory="100"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:title="Easy"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:showAsAction="always" />&ndash;&gt;-->
+            <!--<item-->
+                <!--android:id="@+id/Resedict"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:title="Reset"-->
+                <!--android:icon="@drawable/ic_replay_black_24dp"-->
+                <!--app:showAsAction="always" />-->
+
+
+        <!--</menu>-->
+    <!--</item>-->
+    <item
+    android:id="@+id/Exit"
+    android:orderInCategory="100"
+    android:title="Exit"
+    android:icon="@drawable/ic_exit_return_black_24dp"
+    app:showAsAction="never" />
+    <item
+    android:id="@+id/Hscore"
+    android:orderInCategory="100"
+    android:title="High Score"
+    app:showAsAction= "never" />
+
+    <item
+        android:id="@+id/Reset"
+        android:orderInCategory="100"
+        android:title="Reset"
+        android:icon="@drawable/ic_replay_black_24dp"
+        app:showAsAction="always" />
+    <item
+    android:id="@+id/Incre"
+    android:icon="@drawable/ic_fast_rewind_black_24dp"
+    android:orderInCategory="100"
+    android:title="Decrease"
+    app:showAsAction="always" />
+
+    <item
+    android:id="@+id/pause"
+    android:icon="@drawable/ic_pause_black_24dp"
+    android:orderInCategory="100"
+    android:title="stop"
+    app:showAsAction="always" />
+    <item
+    android:id="@+id/Decre"
+    android:icon="@drawable/ic_fast_forward_black_24dp"
+    android:orderInCategory="100"
+    android:title="Increase"
+    app:showAsAction="always" />
+
+</menu>

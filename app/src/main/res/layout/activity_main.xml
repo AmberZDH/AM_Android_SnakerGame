@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snake.MainActivity">
+
+<TextView
+    android:id="@+id/show_score"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:textStyle="italic"
+    android:textSize="30sp"/>
+    <com.stanleyj.android.snake_game.views.SnakeView
+        android:id="@+id/sanke_view"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
