@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         return true;
     }
 
-    //
+    //选择
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
